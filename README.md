@@ -42,7 +42,7 @@ Para ver o Resources:
 ## O que é o Angular Material?
 É a implementação oficial, para o Angular, do Material Design, a especificação de design para interfaces interativas do Google. O Material Design cobre desde pequenos elementos, como ícones e cores, até elementos maiores como navegação, cards, imagens e muito mais.
 
-## Como adicionar o Angular Material
+## Como adicionar o Angular Material?
 Na raiz do projeto:
 >ng add @angular/material
 - Tema: Indigo Pink. 
