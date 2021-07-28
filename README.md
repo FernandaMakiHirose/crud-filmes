@@ -10,7 +10,10 @@ Na raiz do projeto:
 >npm install
 
 Logo em seguida:
->npm start
+>ng serve
+
+Abra no seu navegador:
+>http://localhost:4200/
 
 ## JSON Server
 O JSON Server cria chamadas rest para um backend que não existe e retorna um arquivo db.json com os dados informados.
