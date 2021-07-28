@@ -53,3 +53,20 @@ Na raiz do projeto:
 ## O que é o RxJS?
 É uma biblioteca para programação reativa usando Observables, para facilitar a composição de código assíncrono ou baseado em retorno de chamada. 
 
+## Extra
+Comando para criar um serviço:
+>ng g s nome-serviço ou'ng generate service nome-serviço
+
+Por que nós criamos interfaces?
+Porque elas garantem que os objetos (contratos) sigam um padrão estabelecido, garantindo que todos os desenvolvedores sigam o mesmo padrão.
+
+Qual é a melhor forma de ordenarmos os imports dentro do Angular?
+Primeiro os imports do Angular, depois de terceiros e por último os nossos.
+
+O que é o HTTPCliente?
+Serviço responsável por criar nossas chamadas REST.
+
+O que é o entryComponents?
+É o local onde alguns componentes precisam ser instanciados quando a aplicação é carregada.
+
+
