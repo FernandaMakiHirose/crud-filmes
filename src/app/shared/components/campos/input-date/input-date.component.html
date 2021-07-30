@@ -1,0 +1,19 @@
+<div [formGroup]="formGroup">
+  <mat-form-field class="full-width">
+    <!--
+      readonly: não vai ser possível digitar nada nesse campo, apenas será possível abrir o calendário e selecionar a data
+      (click)="picker.open()": o input vai fazer a mesma ação ao clicar no calendário
+      <mat-error *ngIf=></mat-error>: só aparece esse erro quando acontece uma ação específica
+    -->
+    <input  matInput
+            readonly 
+            [matDatepicker]="picker"
+            [placeholder]="titulo"
+            [name]="controlName"
+            [formControlName]="controlName"
+            (click)="picker.open()">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  <mat-error *ngIf="validacao.hasErrorValidar(formControl, 'required')">Campo obrigatório</mat-error>
+  </mat-form-field>
+</div>

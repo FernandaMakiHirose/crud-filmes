@@ -1,0 +1,12 @@
+<div [formGroup]="formGroup">
+  <mat-form-field class="full-width">
+    <!--
+      <mat-error *ngIf=></mat-error>: só aparece esse erro quando acontece uma ação específica
+      <mat-error *ngFor=></mat-error>: para cada opção vai mostrar uma opção filtrada específica
+    -->
+    <mat-select [placeholder]="titulo" [formControlName]="controlName">
+      <mat-option *ngFor="let opcao of opcoes" [value]="opcao">{{opcao}}</mat-option>
+    </mat-select>
+    <mat-error *ngIf="validacao.hasErrorValidar(formControl, 'required')">Campo obrigatório</mat-error>
+  </mat-form-field>
+</div>
