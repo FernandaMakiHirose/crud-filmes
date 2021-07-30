@@ -56,6 +56,12 @@ Na raiz do projeto:
 ## O que é o RxJS?
 É uma biblioteca para programação reativa usando Observables, para facilitar a composição de código assíncrono ou baseado em retorno de chamada. 
 
+## Angular Infinite Scroll
+<a href="https://www.npmjs.com/package/ngx-infinite-scroll">Angular Infinite Scroll</a>
+
+Instalação:
+>npm install ngx-infinite-scroll --save 
+
 ## Extra
 Comando para criar um serviço:
 >ng g s nome-serviço ou'ng generate service nome-serviço
