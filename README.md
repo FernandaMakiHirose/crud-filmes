@@ -5,6 +5,15 @@ Objetivos:
 - Editar
 - Excluir
 
+## Requisitos
+- Angular básico.
+- JavaScript básico.
+- Node 11 e Angular 8 instalados. 
+- IDE (Eu usei o Visual Studio Code).
+
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## Comandos para projeto ser executado
 Na raiz do projeto:
 >npm install
@@ -29,12 +38,6 @@ Para ver a Home:
 
 Para ver o Resources:
 >http://localhost:3000/filmes 
-
-## Pré-requisitos
-- Angular básico.
-- JavaScript básico.
-- Node 11 e Angular 8 instalados. 
-- IDE (Eu usei o Visual Studio Code).
 
 ## Bibliotecas necessárias 
 - Angular Material (fornece os componentes de interface).
